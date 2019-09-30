@@ -1,0 +1,110 @@
+#POINTS
+0 -10 0 0
+1 10 0 0
+2 10 30 0
+3 -10 30 0
+4 -10 0 -30
+5 10 0 -30
+6 10 30 -30
+7 -10 30 -30
+8 0 10 0 $NAME BHE0_top
+9 0 10 -20 $NAME BHE0_bottom
+10 0 20 0 $NAME BHE1_top
+11 0 20 -20 $NAME BHE1_bottom
+#POLYLINE
+$NAME
+ply_top
+$POINTS
+0
+1
+2
+3
+0
+#POLYLINE
+$NAME
+ply_bottom
+$POINTS
+4
+5
+6
+7
+4
+#POLYLINE
+$NAME
+ply_left
+$POINTS
+0
+3
+7
+4
+0
+#POLYLINE
+$NAME
+ply_right
+$POINTS
+1
+2
+6
+5
+1
+#POLYLINE
+$NAME
+ply_inflow
+$POINTS
+0
+1
+5
+4
+0
+#POLYLINE
+$NAME
+ply_outflow
+$POINTS
+3
+2
+6
+7
+3
+#POLYLINE
+$NAME
+ply_BHE0
+$POINTS
+8
+9
+#POLYLINE
+$NAME
+ply_BHE1
+$POINTS
+10
+11
+#SURFACE
+$NAME
+top
+$POLYLINES
+ply_top
+#SURFACE
+$NAME
+bottom
+$POLYLINES
+ply_bottom
+#SURFACE
+$NAME
+left
+$POLYLINES
+ply_left
+#SURFACE
+$NAME
+right
+$POLYLINES
+ply_right
+#SURFACE
+$NAME
+inflow
+$POLYLINES
+ply_inflow
+#SURFACE
+$NAME
+outflow
+$POLYLINES
+ply_outflow
+#STOP
