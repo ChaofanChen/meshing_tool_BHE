@@ -2,7 +2,7 @@
 /*
 BHE SETUP TOOL
 --------------------------
-Author: Chaofan Chen
+Author: Chaofan Chen, Philipp Hein
 Last revision: 21.09.2018
 ------------------------------------------------------------------------------
 * Reads input file
