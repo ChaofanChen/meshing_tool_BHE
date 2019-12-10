@@ -1,10 +1,11 @@
-WIDTH 20
-LENGTH 30
-DEPTH 30
-BOX -1 -1 -1
-ELEM_SIZE 5   5
+WIDTH 100
+LENGTH 300
+DEPTH 100
+BOX 50 200 60
+ELEM_SIZE 5   20
 // material_group #_of_elements thickness_of_elements
 LAYER 0 60  0.5
 //  BHE#  x     y    z_top z_bottom radius
-BHE 0    0     10   0    -20    0.103
-BHE 1    0     20   0    -20    0.103
+BHE 0    0     100   0    -80    0.103
+BHE 1    0     150   0    -80    0.103
+BHE 2    0     200   0    -80    0.103
